@@ -1,0 +1,15 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;
+}
+
+.unOrdered_list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+a{
+    color: #22b2eb;
+    text-decoration: none;
+}

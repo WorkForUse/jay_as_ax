@@ -1,0 +1,31 @@
+body{
+  display: grid; place-items: center; margin: 0; padding: 0; box-sizing: border-box;
+}
+
+.container{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.centerAlign{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px 0px 20px 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex_one_row{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.flex_one_row input[type="text"],.flex_one_row input[type="date"]{
+  padding: 15px; border: 2px solid navy; font-weight: bolder;
+}
+.btn_add{
+  padding: 15px 35px; border-radius: 20px; background-color: #12b0ee; color: black; font-weight: bolder; border: none;
+}
+.btn_delete{
+  padding: 10px 35px; border-radius: 10px; background-color: whitesmoke; color: blue; font-weight: bolder; border: 2px solid black; margin: 10px 10px 10px 10px;
+}
